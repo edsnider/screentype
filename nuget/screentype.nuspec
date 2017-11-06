@@ -3,12 +3,11 @@
     <metadata>
         <id>ScreenType</id>
         <title>ScreenType for Xamarin.iOS</title>
-        <version></version>
+        <version>$version$</version>
         <authors>edsnider</authors>
         <owners>edsnider</owners>
         <licenseUrl>https://github.com/edsnider/screentype/blob/master/LICENSE</licenseUrl>
         <projectUrl>https://github.com/edsnider/screentype</projectUrl>
-        <iconUrl></iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Easily distinguish between iOS device screen types in Xamarin.iOS apps.</description>
         <tags>ios, xamarin.ios, screentype, screensize, iphone, ipad, xamarin</tags>
