@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>ScreenType</id>
+        <title>ScreenType for Xamarin.iOS</title>
+        <version></version>
+        <authors>edsnider</authors>
+        <owners>edsnider</owners>
+        <licenseUrl>https://github.com/edsnider/screentype/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/edsnider/screentype</projectUrl>
+        <iconUrl></iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Easily distinguish between iOS device screen types in Xamarin.iOS apps.</description>
+        <tags>ios, xamarin.ios, screentype, screensize, iphone, ipad, xamarin</tags>
+    </metadata>
+    <files>
+        <file src="src\bin\Release\ScreenType.*" target="lib\Xamarin.iOS10" />
+    </files>
+</package>
