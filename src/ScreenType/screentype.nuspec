@@ -13,6 +13,6 @@
         <tags>ios, xamarin.ios, screentype, screensize, iphone, ipad, xamarin</tags>
     </metadata>
     <files>
-        <file src="ScreenType\bin\Release\ScreenType.*" target="lib\Xamarin.iOS10" />
+        <file src="bin\Release\ScreenType.*" target="lib\Xamarin.iOS10" />
     </files>
 </package>
