@@ -32,28 +32,46 @@ namespace ScreenType
 {
     /// <summary>
     /// Screen types for all available iPhones and iPads
-    /// 
-    /// - iPhone3_5: 3.5 inch iPhone (4, 4s)
-    /// - iPhone4_0: 4.0 inch iPhone (5, 5s, 5c)
-    /// - iPhone4_7: 4.7 inch iPhone (6/6s, 7, 8)
-    /// - iPhone5_5: 5.5 inch iPhone (6/6s plus, 7 plus, 8 plus)
-    /// - iPhone5_8: 5.8 inch iPhone (X)
-    /// - iPad9_7:   9.7 inch iPad
-    /// - iPad10_5:  10.5 inch iPad
-    /// - iPad12_9:  12.9 inch iPad
     /// </summary>
     public enum ScreenType
     {
+        /// <summary>
+        /// 3.5 inch iPhone (4, 4s)
+        /// </summary>
         iPhone3_5 = 1,
+        /// <summary>
+        /// 4.0 inch iPhone (5, 5s, 5c)
+        /// </summary>
         iPhone4_0 = 2,
+        /// <summary>
+        /// 4.7 inch iPhone (6, 6s, 7, 8)
+        /// </summary>
         iPhone4_7 = 3,
+        /// <summary>
+        /// 5.5 inch iPhone (6 Plus, 6s Plus, 7 Plus, 8 Plus)
+        /// </summary>
         iPhone5_5 = 4,
+        /// <summary>
+        /// 5.8 inch iPhone (X)
+        /// </summary>
         iPhone5_8 = 5,
+        /// <summary>
+        /// 9.7 inch iPad
+        /// </summary>
         iPad9_7 = 6,
+        /// <summary>
+        /// 10.5 inch iPad
+        /// </summary>
         iPad10_5 = 7,
+        /// <summary>
+        /// 12.9 inch iPad
+        /// </summary>
         iPad12_9 = 8 
     }
 
+    /// <summary>
+    /// Extension methods.
+    /// </summary>
     public static class ScreenTypeExtensions
     {
         /// <summary>
