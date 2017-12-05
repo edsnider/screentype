@@ -11,6 +11,7 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Easily distinguish between iOS device screen types in Xamarin.iOS apps.</description>
         <tags>ios, xamarin.ios, screentype, screensize, iphone, ipad, xamarin</tags>
+        <releaseNotes>https://github.com/edsnider/screentype/blob/master/CHANGELOG.md</releaseNotes>
     </metadata>
     <files>
         <file src="bin\Release\ScreenType.*" target="lib\Xamarin.iOS10" />
